@@ -1,0 +1,111 @@
+.row{
+  width: 100%;
+  margin: 0 auto;
+  max-width: 800px;
+  border: 3px solid aqua;
+  position: relative;
+  background: none;
+}
+
+.row:after{
+  background: none;
+  border: 2px solid yellow;
+  content: '';
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.content_post{
+  position: relative;
+  margin: 20px auto;
+  max-width: 700px;
+  padding: 30px; 
+  color: #fff;
+   padding: 20px;
+   font-size: 22px;
+   background: #FEA993;
+   border: 2px dashed #F7F9CC;
+   border-radius: 10px;
+   box-shadow: 0 0 0 7px #FEA993;
+}
+
+.more{
+  height: 100px;
+  width: 300px;
+  top: 20px;
+  right: 30px;
+  position: absolute;
+  cursor: pointer;
+  z-index: 2;
+  text-align: right; 
+}
+
+.field{
+  margin: 0 auto;
+  border: ridge thick;
+  width: 100%;
+  max-width: 660px;
+}
+
+h2{
+  margin: 0 auto;
+  width: 100%;
+  height: 100px;
+  max-width: 660px;
+  text-align: center;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 0 15px #FF6694;
+  font-size: 58px;
+  font-family: 'Hiragino Maru Gothic Pro','ヒラギノ丸ゴ Pro W4', sans-serif;
+}
+
+h2:hover {
+  -webkit-animation: heart-anim 1s linear .3s;
+  animation: heart-anim 1s linear .3s;
+}
+
+/* Animation setting */
+@-webkit-keyframes heart-anim {
+  to {
+    opacity: 0;
+    -webkit-transform: scale(50);
+  }
+}
+@keyframes heart-anim {
+  to {
+    opacity: 0;
+    transform: scale(50);
+  }
+}
+
+/* Basic style */
+body {
+  text-align: center;
+}
+
+.actions{
+  margin: 20px auto;
+  text-align: center;
+
+}
+
+
+br{
+  margin: 0 auto;
+}
+
+h3{
+  color: #fff;
+  text-shadow: 0 0 15px #FF6694;
+  font-size: 58px;
+  font-family: 'Hiragino Maru Gothic Pro','ヒラギノ丸ゴ Pro W4', sans-serif;
+}
+
+input{
+  margin: 0 auto;
+}
